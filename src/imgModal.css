@@ -1,0 +1,62 @@
+
+#lightbox-img {
+  height: 80vh;
+  max-width: 90vw;
+  object-fit: cover;
+}
+
+#lightbox {
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+#lightbox img {
+	width: auto !important;
+	height: 90% !important;
+	margin: 0 2rem;
+}
+
+
+/*Completely optional styling that has nothing to do with the lightbox*/
+button {
+  background-color: transparent;
+  border: none;
+  font-size: 5rem;
+}
+
+a {
+  color: #7a4baa;
+}
+
+h1 {
+  color: #7a4baa;
+}
+
+p {
+  margin-bottom: 1.5rem;
+  font-size: .9rem;
+}
+
+img:hover, button:hover {
+  cursor: pointer;
+}
+
+
+.remove-scrolling { 
+  height: 100%; 
+  overflow: hidden; 
+}
+
+.lightboxButton {
+	height: 100%;
+	width: auto;
+}
