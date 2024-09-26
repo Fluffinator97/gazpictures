@@ -11,6 +11,9 @@ function App() {
 		<Banner />
 	</header>
 	<Portfolio />
+		<div className="sqs-html-content">
+			<p className="copyright">Copyright 2024</p>
+		</div>
     </div>
   );
 }

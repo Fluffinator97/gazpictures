@@ -52,9 +52,66 @@
   grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
 }
 
+.contact-info {
+	justify-content: center;
+	margin-right: 3rem;
+}
+
+.width100 {
+	width: 50% !important;
+}
+
+.copyright {
+	text-align: center;
+	width: 100vw;
+}
+
+.banner {
+	flex-direction: row !important;
+	justify-content: space-evenly !important;
+	font-size: 24px;
+	color: white;
+}
+
+.contact {
+	max-width: 30%;
+	width: 30%;
+	text-align: start;
+	justify-content: space-evenly;
+}
+
+.profile {
+	width: 50%;
+}
+
+.about {
+	max-width: 30%;
+	width: 30%;
+	text-align: start;
+}
+
+.flex-col {
+	display: flex;
+	flex-direction: column;
+	width: inherit;
+}
+
+.fit-content {
+	width: fit-content;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.profile-picture {
+	width: 100%;
+}
+
+.t-align-start {
+	text-align: start;
+	margin-left: 9rem;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -71,6 +128,10 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: Black;
+}
+
+.t-white {
+	color: white;
 }
 
 .App-link {
