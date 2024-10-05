@@ -19,8 +19,8 @@ function Banner() {
     <p>- Harvey “Gaz” Holmes</p>
 					</div>
 
-					<div className="contact flex">
-						<div className="flex-col fit-content contact-info">
+					<div className="contact">
+						<div className=" fit-content contact-info">
 							<div className="">
 							<h3 class="">Contact</h3>
 							<div class="">
@@ -43,10 +43,7 @@ function Banner() {
 							</div>
 						</div>
 						<div className="flex-col width100">
-							<div className="">
-								<img className="profile-picture" src={profile} alt="Absolute spoon" />
-							</div>
-						</div>
+</div>
         </div>
               </div>
 			</header>
